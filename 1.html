@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="an-ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="calc - Copy.jpg" type="image/x-icon" class="icon">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" class="icon">
+    <title>الثلاثة فتية القديسين</title>
+
+    <script>
+        window.onload = function() {
+            document.getElementById("mgh").addEventListener("click", function() {
+                var select = document.getElementById("list");
+                if (select.style.display === "none" || select.style.display === "") {
+                    select.style.display = "block";
+                } else {
+                    select.style.display = "none";
+                }
+            });
+        };
+
+        function goToLink() {
+            var select = document.getElementById("list");
+            var selectedValue = select.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+
+</head>
+
+<body dir="rtl">
+
+    <div>
+        <select id="list" onchange="goToLink()">
+            <option value="">select</option>
+            <option value="1.html"> page1</option>
+            <option value="2.html"> page2</option>
+            <option value="3.html"> page3</option>
+        </select>
+    </div>
+
+    <div class="m">
+
+        مقدمة عن الثلاثة فتية القديسين
+
+    </div>
+    <div class="ofa">
+
+        الثلاثة فتية هم رفقاء دانيال النبي الذين اتوا بأمر نبوخذ نصر الملك الى بابل وكانوا من بني يهوذا ورُشِّحُوا هم الاربعة للخدمة في القصر الملكي فغير رئيس الخصيان اسمائهم فاصبحت كالتالي<br> دانيال الى بالطشاسر <br> حنانيا الى شدرخ <br>ميشائيل الى
+        ميشخ <br>عزاريا الى عبدناغو<br>ورفضوا هؤلاء الاربعة ان ياكلوا من طعام الملك وان يشربوا من خمره واختاروا القطاني والماء ومع بساطة هذا المأكل والمشرب فان مناظرهم ظهرت احسن من بقيه الفتيان الذين تناولوا من اطياب الملك وخمره وقد رفضوا ايضا السجود
+        لتمثال الملك نبوخذ نصر المصنوع من الذهب فطرحهم الملك في اتون النار ولكن الله انقذهم منه ويوجد التسبحة الرائعة التي سبحوا&nbsp; الله بها وهم في اتون النار موجودة في تتمة سفر دانيال في الأسفار&nbsp; القانونية الثانية وتقوم الكنيسة القبطية في صلاة
+        التسبحة بصلاة هذه الصلاة في الهوس الثالث وتوجد ابصالية واطس للثلاثة فتية القديسين بعنوان اريبسالين أو رتلوا للذي صلب عنا
+
+    </div>
+
+    <div id="mgh">
+
+        1
+        <a href="2.html"> <img src="sahm.png" class="sahml"> </a>
+
+    </div>
+
+</body>
+
+</html>

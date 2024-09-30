@@ -1,0 +1,64 @@
+body {
+    background: url('الفتية.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.ofa {
+    font-size: 1cm;
+    color: #1e36c8;
+    font-weight: bold;
+    right: 20px;
+    text-indent: 33px;
+}
+
+.m {
+    font-size: 100px;
+    color: rgb(90, 9, 105);
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#list {
+    display: none;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e36c8;
+    right: 560px;
+    top: 857px;
+    background-color: #c3d7ef;
+    position: absolute;
+}
+
+.sahml {
+    position: absolute;
+    bottom: 0px;
+    left: 85px;
+}
+
+.sahmr {
+    position: absolute;
+    bottom: 0px;
+    right: 85px;
+}
+
+#mgh {
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    margin: 0 50% 0 50%;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3f51c4;
+    border-width: 5px;
+}
+
+ ::selection {
+    color: #85a0f8;
+    position: sticky;
+}

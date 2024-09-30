@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="3.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" class="icon">
+    <title>الثلاثة فتية القديسين</title>
+    <script>
+        window.onload = function() {
+
+            document.getElementById("mgh").addEventListener("click", function() {
+                var select = document.getElementById("list");
+                if (select.style.display === "none" || select.style.display === "") {
+                    select.style.display = "block";
+                } else {
+                    select.style.display = "none";
+                }
+            });
+        };
+
+        function goToLink() {
+            var select = document.getElementById("list");
+            var selectedValue = select.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+
+</head>
+
+<body dir="rtl">
+
+    <div>
+        <select id="list" onchange="goToLink()">
+            <option value="">select</option>
+            <option value="1.html"> page1</option>
+            <option value="2.html"> page2</option>
+            <option value="3.html"> page3</option>
+        </select>
+    </div>
+
+    <div class="m">
+
+        قصة الثلاثة فتية القديسين
+
+    </div>
+    <div class="ofa">
+
+        أقام نبوخذ نصر الملك تمثالاً (صنماً) من ذهب وأمر قائلاً اني قلت لكم جميعاً أيها الشعب كله وجميع والأمم و القبائل والألسن انصتوا واسمعوا كلامي هذا اذا ما سُمع صوت البوق فخروا لوقتكم واسجدوا لتمثال الذهب وان لم تصنعوا هكذا ولم تنصتوا لكلامي فللوقت تلقون
+        في أتون النار المتوقد فلما سمع جميع القبائل في مملكته هذا الكلام خروا وسجدوا أمام التمثال الذهب ماعدا الثلاثة فتية القديسين شدرخ وميشخ وعبدناغو فإنهم لم يطيعوا الملك ولم يسجدوا للتمثال فلما عرف الملك هذا غضب غضباً عظيماً وأمر أن يحمى الأتون سبعة
+        أضعف على غير العادة وأن يُربطوا ويُلقوا في أتون النار المتقد واذ بملاك الرب يأتي برياح ذات ندى فصَيَّر لهيب النار كالندى البارد والثلاثة فتية القديسين كانوا يتمشون في الأتون ويسبحون الله مع الملاك ثم وقف عزريا في وسط الأتون وصلى إلى الله قائلاً
+        (مبارك أيها الرب الله سبحوه وزيدوه علوا، مبارك هو اسم مجده القدوس الى أبد الأبد. بارك الرب يا حنانيا. بارك الرب يا عزاريا . بارك الرب يا ميصائيل عبيد الله العلى باركوا الرب يا جميع خائفى الرب اله السماء، سبحوه ومجدوه وزيدوه علوا ) فتحير نبوخذ
+        نصر الملك وسأل رؤساء الشعب ألم نلقِ ثلاثة رجال في أتون النار فهوذا أربعة يمشون في النار ومنظر الرابع شبه إبن الالهة فقترب نبوخذ نصر الملك من الأتون ونادى يا شدرخ وميشخ وعبدناغو يا عبيد الله العلي اخرجوا فخرجوا هم الثلاثة فرأى أن للنار لم تكن لها
+        قوة على أجسادهم وشعرة من رؤوسهم لم تحترق حينئذ بارك الملك الله إله شدرخ وميشخ وعبدناغو فآمن الملك وكل الكلدانيين الذين في مملكته بالله وأصدر أمر ان كل الشعب يعبد الله الوحد من يتكلم بالسوء على إله شدرخ وميشخ وعبدناغو يقطعون قطعاً وتصير بيوتهم
+        مزبلة وأقام الثلاثة فتية القديسين على كل ما له اطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وأبدناغو ليغفر لنا خطايانا.
+
+
+
+    </div>
+
+    <div id="mgh">
+        3
+        <a href="2.html"> <img src="fsahm.png" class="sahmr"> </a>
+    </div>
+
+</body>
+
+</html>
